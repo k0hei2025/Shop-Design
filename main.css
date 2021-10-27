@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+#product-overview {
+  background: url("freedom.jpg");
+  /* border: 5px black solid; */
+  padding: 300px 0px;
+}
+
+.section-title {
+  color: #2ddf5c;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+.main-header {
+  background: #2ddf5c;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.main-header > div {
+  display: inline-block;
+}
+
+.nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 5%);
+  vertical-align: middle;
+}
+
+.header__brand {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  color: #0e4f1f;
+}
+
+.nav__items {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav__item {
+  display: inline-block;
+
+  margin: 0px 10px;
+}
+.nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
+  font-weight: bold;
+}
+
+.nav__item--cta a {
+  background-color: #ff1b68;
+  padding: 8px 16px;
+  color: #ffff;
+  border-radius: 8px;
+}
+
+.nav__item a:hover,
+.nav__item a:active {
+  color: #ffff;
+}
+
+.nav__item--cta a:hover,
+.nav__item--cta a:active {
+  background-color: #ffff;
+  color: #ff1b68;
+  border: none;
+}
+/* 
+.nav__item a:active {
+  color: #ffff;
+} */
+
+#plans {
+  text-align: center;
+}
+
+/* .plans-lists {
+  vertical-align: baseline;
+} */
+
+.plans-list {
+  display: inline-block;
+  background: #e1f5f2;
+  padding: 25px 16px;
+  width: 20%;
+  margin: 0px 8px;
+  vertical-align: middle;
+}
+
+.plans-list h2 {
+  color: #aaa492;
+}
+.plans-list__ul li {
+  text-decoration: none;
+}
+
+.recommended__plan {
+  background: #4e9f3d;
+  color: white;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.recommended__plan_h1 {
+  background: #ffff;
+  padding: 8px 16px;
+  color: #0e4f1f;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.plans-list__ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plans-list__ul li {
+  margin: 8px 0px;
+}
+
+.plans-choose {
+  padding: 8px 0px;
+}
+
+.plans-price {
+  color: #ccc;
+}
+
+.button {
+  background: #0e4f1f;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1.5px solid #0e4f1f;
+  color: white;
+  font-size: 17px;
+  font: inherit;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+  background: #ffff;
+  color: #0e4f1f;
+}
+
+.recommended__plan .plans-price {
+  color: #0e4f1f;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.core-features {
+  margin-top: 50px;
+  height: 400px;
+  background-color: #ff1b68;
+}
+
+.core-feature__title {
+  padding: 30px 0px;
+  text-align: center;
+  font: inherit;
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+}
+
+.core-features__lists {
+  text-align: center;
+  list-style: none;
+}
+
+.core-features__list {
+  display: inline-block;
+  width: 30%;
+}
+
+.core-features__list p {
+  font: inherit;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffff;
+}
+
+.core-feature__sphere {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin: auto;
+  background-color: pink;
+}
+
+.main-footer {
+  margin-top: 48px;
+  padding: 32px;
+  background: #191a19;
+}
+
+.footer__list {
+  display: inline-block;
+  margin: 8px 16px;
+}
+
+.footer__list a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__lists {
+  text-align: center;
+}
+
+.footer__list a:hover {
+  color: #ccc;
+}
