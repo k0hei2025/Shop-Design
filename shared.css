@@ -95,6 +95,34 @@ body {
   margin: 0.6rem 0;
 }
 
+.mobile-nav {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background: white;
+  width: 80%;
+  height: 100vh;
+}
+
+.mobile-nav__items {
+  width: 90%;
+  height: 100%;
+  list-style: none;
+  margin: 10% auto;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-nav__item {
+  margin: 1rem 0;
+}
+
+.mobile-nav__item a {
+  font-size: 1.5rem;
+}
+
 .nav__item a:hover,
 .nav__item a:active {
   color: #ffff;
@@ -129,4 +157,22 @@ body {
 
 .footer__list a:hover {
   color: #ccc;
+}
+
+.button {
+  background: #0e4f1f;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1.5px solid #0e4f1f;
+  color: white;
+  font-size: 17px;
+  font: inherit;
+  font-weight: bold;
+}
+
+.button:hover,
+.button:active {
+  background: #ffff;
+  color: #0e4f1f;
 }

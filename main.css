@@ -86,24 +86,6 @@
   color: #ccc;
 }
 
-.button {
-  background: #0e4f1f;
-  padding: 8px 16px;
-  cursor: pointer;
-  border-radius: 8px;
-  border: 1.5px solid #0e4f1f;
-  color: white;
-  font-size: 17px;
-  font: inherit;
-  font-weight: bold;
-}
-
-.button:hover,
-.button:active {
-  background: #ffff;
-  color: #0e4f1f;
-}
-
 .recommended__plan .plans-price {
   color: #0e4f1f;
 }
