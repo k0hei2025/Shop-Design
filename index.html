@@ -18,9 +18,27 @@
   </head>
 
   <body>
+    <div class="background"></div>
+    <div class="backdrop"></div>
+    <div class="modal">
+      <h1 class="modal__title">Do you want to continue?</h1>
+      <div class="modal__actions">
+        <a href="start-hosting/index.html" class="modal__action">Yes!</a>
+        <button class="modal__action modal__action--negative" type="button">
+          No!
+        </button>
+      </div>
+    </div>
     <header class="main-header">
       <div>
-        <a href="index.html" class="header__brand"> uHost </a>
+        <button class="toggle-button">
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+        </button>
+        <a href="index.html" class="header__brand">
+          <img src="./uhost-icon.png"
+        /></a>
       </div>
       <nav class="nav">
         <ul class="nav__items">
@@ -121,5 +139,6 @@
       </nav>
       <div></div>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>

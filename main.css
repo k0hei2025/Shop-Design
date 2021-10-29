@@ -1,7 +1,14 @@
 #product-overview {
-  background: url("freedom.jpg");
+  /* background: url("freedom.jpg"); */
+  background-size: cover;
+  background: linear-gradient(120deg, pink 30%, skyblue 70%, lightgreen 94%);
+  /* background-image: url("./freedom.jpg"), url("./plans-background.jpg"), */
+  /* linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0)); */
+  /* background-repeat: no-repeat; */
+  /* background-position: bottom right, left, right; */
+  /* background-position: left 10% bottom 30%; */
   /* border: 5px black solid; */
-  padding: 300px 0px;
+  height: 1000px;
 }
 
 .section-title {
@@ -11,6 +18,8 @@
 #product-overview h1 {
   color: white;
   font-family: "Anton", sans-serif;
+  position: absolute;
+  bottom: 40%;
 }
 
 /* h1 {
@@ -141,4 +150,53 @@
   border-radius: 100%;
   margin: auto;
   background-color: pink;
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  z-index: 200;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.modal__title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.modal__actions {
+  text-align: center;
+}
+
+.modal__action {
+  border: 1px solid #0e4f1f;
+  background: #0e4f1f;
+  text-decoration: none;
+  color: white;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.modal__action:hover,
+.modal__action:active {
+  background: #2ddf5c;
+  border-color: #2ddf5c;
+}
+
+.modal__action--negative {
+  background: red;
+  border-color: red;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active {
+  background: #ff5454;
+  border-color: #ff5454;
 }

@@ -11,10 +11,28 @@ body {
   background: #2ddf5c;
   padding: 8px 16px;
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header__brand img {
+  height: 30px;
 }
 
 .main-header > div {
   display: inline-block;
+}
+
+.backdrop {
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .header__brand {
@@ -53,6 +71,28 @@ body {
   padding: 8px 16px;
   color: #ffff;
   border-radius: 8px;
+}
+
+.toggle-button {
+  width: 3rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: middle;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button__bar {
+  width: 100%;
+  height: 0.2rem;
+  background: black;
+  display: block;
+  margin: 0.6rem 0;
 }
 
 .nav__item a:hover,
