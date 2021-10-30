@@ -55,9 +55,20 @@
   background-color: #ffff;
   border: 3px solid #32502e;
   padding: 20px 16px;
-  font-size: 21px;
-
+  /* font-size: 21px; */
+  /* text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5); */
   color: #1e5128;
+  /* font: bold 21px inherit; */
+  /* font-variant: unset; */
+  /* text-transform: uppercase; */
+  /* 
+  letter-spacing: 3px;
+  word-spacing: 5px; */
+  /* text-spacing: 3px; */
+  font-size: 21px;
+  /* font: italic small-caps 700 21px "monospace"; */
+
+  /* font style font variant font weight font size font family */
 }
 
 .premium-plan-section {

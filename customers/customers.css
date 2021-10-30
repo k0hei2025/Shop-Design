@@ -1,4 +1,7 @@
 .testimonial {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   font-size: 20px;
   margin: 48px 0;
 }
