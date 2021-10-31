@@ -52,6 +52,19 @@ body {
   vertical-align: middle;
 }
 
+.nav__item--cta {
+  animation: wiggle 200ms 3s 8 alternate;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(10deg);
+  }
+}
+
 .nav__items {
   padding: 0;
   margin: 0;
